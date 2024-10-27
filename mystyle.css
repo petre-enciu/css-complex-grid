@@ -1,0 +1,91 @@
+
+
+.div1{
+    background-color: brown;
+    height: 450px;  
+    width: 400px;  
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.div2{
+    background-color: rgb(42, 165, 69);
+    height: 25vh;
+
+    margin: 0.5em;
+    padding: 0.5em; 
+}
+
+.div3{
+    background-color: rgb(85, 42, 165);
+    margin: 0.5em;
+    padding: 0.5em;
+}
+    
+
+.preserve_aspect_ratio{
+    padding-bottom: 56.25%;
+    
+}
+
+.fills_remaining_space{
+    bottom: 0;
+    top: 100px;
+    position: absolute;
+    width: 100%;
+
+}
+
+.demoWrapper {
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+    resize: horizontal;
+    border: 1px dashed;
+    overflow: auto;
+    max-width: 100%;
+    height: calc(100vh - 16px);
+}
+  
+.div_with_preserve_aspect_ratio {
+    width: 100%;
+    padding-bottom: 75%;
+    background: gold; /** <-- For the demo **/
+}
+
+.style1{
+    background-color: brown;
+ 
+}
+
+.style2{
+    background-color: rgb(85, 42, 165);
+
+}
+
+.dropdown-selector{
+    background-color: rgb(172, 255, 227);
+    
+}  
+
+.layout{
+    
+    background-color: rgb(0, 255, 170);
+}
+
+.map-cell{
+    
+    background-color: rgb(3, 192, 129);
+    height: 400px;
+}
+
+.climate-tile{
+    
+    background-color: rgb(173, 207, 196);
+    height: 100%;
+}
+
+.floor-cell{
+    background-color: rgb(152, 255, 223);
+    
+}
